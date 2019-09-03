@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    <img height="400" src="more-pejzazh-priroda-46891.jpg">
+</br>
+
+ <h1 id="1">57</h1>
+<button onclick="p1()"> <img id="2" height="100" src="images%20(2).png"></button>
+</br>
+    </br>
+<img id="3" height="100" src="images.jpg">
+<img id="4" height="100" src="Без%20названия%20(9).jpg">
+<img id="5" height="100" src="images%20(1).jpg">
+
+<p id="6">Paincliff Lightfire HellDragon и др.</p>
+
+
+
+<script>
+    score=57
+    function p1 () {
+        score++
+
+        if (score > 58) {
+            score = 57
+        }
+        if (score === 57) {
+            document.getElementById('1').innerHTML = score
+            document.getElementById('2').src = "images%20(2).png"
+            document.getElementById('3').src = "images.jpg"
+            document.getElementById('4').src = "Без%20названия%20(9).jpg"
+            document.getElementById('5').src = "images%20(1).jpg"
+            document.getElementById('6').innerHTML = "Paincliff Lightfire HellDragon  и др."
+
+        }
+        if (score === 58) {
+            document.getElementById('1').innerHTML = score
+            document.getElementById('2').src = "png-палец-вверх.png"
+            document.getElementById('3').src = "maxresdefault%20(2).jpg"
+            document.getElementById('4').src = " images.jpg"
+            document.getElementById('5').src = "Без%20названия%20(9).jpg"
+            document.getElementById('6').innerHTML = "Makaroon Paincliff Lightfire и др."
+        }
+    }
+</script>
+
+
+</body>
+</html>
